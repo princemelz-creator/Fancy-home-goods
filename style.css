@@ -1,0 +1,49 @@
+.head{
+    width: 72%;
+    height: 100px;
+    border: 5px solid gold;
+    text-align: center;
+    margin-top: 5px;
+    font-style: oblique;
+    justify-content: center;
+    
+}
+body{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    color: white;
+    padding: 50px;
+}
+a[href]{
+    color: white;
+    font-style: italic;
+}
+.container{
+    font-style: italic;
+    color: burlywood;
+}
+.btn-primary{
+    padding: 2px;
+    margin: 20px;
+    border: none;
+    background-color: gold;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: darkorange;
+}
+.rating-display{
+    color: white;
+    cursor: pointer;
+}
+.star-filled{
+    color: gold;
+    cursor: pointer;
+}
